@@ -1,0 +1,69 @@
+Title:
+Named-entity dataset for ancient languages
+
+Link (for now):
+https://github.com/clemsciences/chr2021
+
+https://github.com/clemsciences/LaTeCH-CLfL-2020-besnier
+
+Affiliations:
+Clément Besnier, no affiliation (or CLTK organisation?)
+
+Abstract:
+The dataset is the annotations of named-entities present in three full medieval texts.
+Annotations are a set of tokens that proper nouns in the texts.
+
+
+Keywords:
+NER, annotations, corpus
+
+Context:
+
+<Explain my paper>
+
+
+1) Methods
+
+Steps
+- proper nouns are written with an upper case character as first character. Such tokens that are not at the beginning of a sentence are probably proper nouns. Other tokens must be manually annotated.
+- the merging part,
+
+Sampling Strategy
+
+Quality Control
+
+
+2) Dataset description
+Object name
+
+Format names and versions
+
+Creation dates
+
+Dataset Creators
+Me
+
+Language
+DLH: Latin and French
+NIB: Middle High German, High German
+VÖL: Old Norse, English
+
+3) Reuse potential
+This may be used to train models for NER
+
+Acknowledgements:
+
+
+References:
+
+
+
+
+
+It is a dictionary for each text where keys are lemma and values are their matching forms present int the text.
+
+
+
+: the Ten Books of History, the Völsunga saga and the Nibelungenlied.
+
+
