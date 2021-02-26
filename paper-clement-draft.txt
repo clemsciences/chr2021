@@ -32,6 +32,14 @@ Sampling Strategy
 
 Quality Control
 
+After the first step, a complete review has been done by using the index present in MGH https://www.dmgh.de/mgh_ss_rer_merov_1_1/index.htm#page/(540)/mode/1up.
+There were few mistakes (DESCRIBE THEM). With this index, I could use the correct lemma (nominative singular form)
+
+
+Old Norse (ON), Middle High German (MHG)
+
+First,  tokenisers  for  Latin,  Old  Norse  and  Middle  High  German  from  CLTK  (Johnson  and  Burns,2014) were applied; then, as texts are normalised, tokens with a first capital character were considered as potential proper nouns. Next, we removed proper noun candidates that were also found with a lower case as first character.  Finally, translations were used in parallel with the original texts to manually check if they were proper nouns. An index of proper nouns were also used when they existed (it was the case for
+DLH(von Sali, 1892) and forNIB(Anonymous, 2011)). The issue was that they were in German and inFrench (forNIB, the lemmas of proper nouns were given in Middle High German). Finally proper nounswere split into three categories:  names of persons, gods and creatures; names of places; and names ofobjects. Only the first category was used. The rest might be useful for future work.
 
 2) Dataset description
 Object name
