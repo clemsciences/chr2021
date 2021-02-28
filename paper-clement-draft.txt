@@ -4,8 +4,6 @@ Named-entity dataset for ancient languages
 Link (for now):
 https://github.com/clemsciences/chr2021
 
-https://github.com/clemsciences/LaTeCH-CLfL-2020-besnier
-
 Affiliations:
 Clément Besnier, no affiliation (or CLTK organisation?)
 
